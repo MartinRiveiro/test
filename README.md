@@ -21,10 +21,20 @@ http://localhost:8080/JavaAPI/rest/user/usuarios es el que devuelve todos los us
 
 POST(application form urlencoded)
 
-http://localhost:8080*/JavaAPI/rest/user/eliminar
+http://localhost:8080*/JavaAPI/rest/user/eliminar se debe enviar el id del usuario a eliminar
 
-http://localhost:8080*/JavaAPI/rest/user/registrar
+http://localhost:8080*/JavaAPI/rest/user/registrar se deben enviar los datos de nombre, apellido, email y password
 
-http://localhost:8080*/JavaAPI/rest/user/modificar los tres responden al ABM de usuarios.
+http://localhost:8080*/JavaAPI/rest/user/modificar se deben enviar los datos de id(del usuario a modificar), nombre, apellido, email y password los tres responden al ABM de usuarios.
 
-Con respecto a empaquetar todos los datos necesarios tendria que investigar bien si es que es necesario, porque hay cosas especialmente el tema de la base de datos, que cambia depende donde se ejecute. Me refiero que en mi caso por ej la conexion con la base de datos se hace a una url y puerto especifico donde esta el server y si se ejecutara en otro lado tal vez se deberia cambiar esa direccion de conexion desde el codigo fuente.
+Con respecto a empaquetar todos los datos necesarios tendria que investigar bien si es que es necesario, porque hay cosas especialmente el tema de la base de datos, que cambia depende donde se ejecute. Me refiero que en mi caso por ej la conexion con la base de datos se hace a una url y puerto especifico donde esta el server y si se ejecutara en otro lado tal vez se deberia cambiar esa direccion de conexion que se debe especificar en el codigo fuente.
+
+Tecnologias que utilice:
+
+Eclipse
+
+Jersey
+
+Apache Tomcat
+
+Wampserver, mysql
