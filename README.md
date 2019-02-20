@@ -9,8 +9,11 @@ http://localhost:8080*/JavaAPI/rest/Cotizacion/Real devuelve error not implement
 http://localhost:8080/JavaAPI/rest/user/usuarios es el que devuelve todos los usuarios de la base de datos
 
 POST(application form urlencoded)
+
 http://localhost:8080*/JavaAPI/rest/user/eliminar
+
 http://localhost:8080*/JavaAPI/rest/user/registrar
+
 http://localhost:8080*/JavaAPI/rest/user/modificar los tres responden al ABM de usuarios.
 
-Con respecto a empaquetar todos los datos necesarios tendria que investigar bien si es necesario, porque hay cosas especialmente el tema de la base de datos, que cambia depende donde se ejecute. Me refiero que en mi caso por ej la conexion con la base de datos se hace a una url y puerto especifico donde esta el server y si se ejecutara en otro lado tal vez se deberia cambiar esa direccion de conexion.
+Con respecto a empaquetar todos los datos necesarios tendria que investigar bien si es que es necesario, porque hay cosas especialmente el tema de la base de datos, que cambia depende donde se ejecute. Me refiero que en mi caso por ej la conexion con la base de datos se hace a una url y puerto especifico donde esta el server y si se ejecutara en otro lado tal vez se deberia cambiar esa direccion de conexion desde el codigo fuente.
