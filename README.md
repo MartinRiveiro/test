@@ -2,6 +2,9 @@
 Es en principio el codigo fuente que responde a los puntos 1,2 y 3 de la test. Tambien subi la base de datos de mysql. Lo que no pude hacer todavia es implementar el patron strategy, y crear unit test para la capa de servicios.
 
 Servicios:
+
+1-COTIZACION:
+
 GET
 
 http://localhost:8080(o el host que se utilice)/JavaAPI/rest/Cotizacion/Dolar consume la cotizacion de la url del banco provincia
@@ -9,6 +12,10 @@ http://localhost:8080(o el host que se utilice)/JavaAPI/rest/Cotizacion/Dolar co
 http://localhost:8080*/JavaAPI/rest/Cotizacion/Pesos devuelve error not implemented
 
 http://localhost:8080*/JavaAPI/rest/Cotizacion/Real devuelve error not implemented
+
+2-USER:
+
+GET
 
 http://localhost:8080/JavaAPI/rest/user/usuarios es el que devuelve todos los usuarios de la base de datos
 
